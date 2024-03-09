@@ -6,3 +6,5 @@ const HealthController = require('./controllers/health-ctrl')
 
 routes.get('/health', HealthController.check);
 routes.get('/personagem', CharacterController.list);
+
+module.exports = routes;
